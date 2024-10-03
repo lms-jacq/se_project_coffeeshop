@@ -140,7 +140,7 @@
   line-height: 30px;
 }
 
-.recipies__videos {
+.recipes__videos {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -162,6 +162,7 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
 
 .reservation {
