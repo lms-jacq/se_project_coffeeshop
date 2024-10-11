@@ -3,7 +3,8 @@
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-size: cover;
-  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;

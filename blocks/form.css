@@ -1,10 +1,6 @@
 .form {
   max-width: 385px;
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
 }
 
 .form__fieldset {
@@ -15,6 +11,10 @@
 
 .form__label {
   color: #000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__input {
@@ -26,6 +26,10 @@
   border: 1px solid #838383;
   border-radius: 4px;
   color: #000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 ::placeholder {
@@ -66,4 +70,5 @@
   display: flex;
   gap: 12px;
   justify-content: center;
+  align-items: center;
 }
